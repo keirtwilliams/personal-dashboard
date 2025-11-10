@@ -7,9 +7,9 @@ const config = {
     datasets: [
       {
         label: "Coding Hours",
-        data: [3, 5, 2, 4, 6, 1, 0],
-        backgroundColor: "rgba(99, 132, 255, 0.8)",
-        borderRadius: 8,
+        data: [3, 5, 2, 4, 6, 7.5, 10],
+        backgroundColor: "#4943e8",
+        borderRadius: 10,
         borderSkipped: false,
       },
     ],
@@ -33,7 +33,6 @@ const config = {
     scales: {
       y: {
         beginAtZero: true,
-        title: { display: true, text: "Hours Coded" },
         ticks: { stepSize: 2 },
         grid: { color: "rgba(200, 200, 200, 0.3)" },
       },

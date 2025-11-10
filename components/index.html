@@ -11,6 +11,7 @@
 
 </head>
 <body>
+  <!--  -->
      <nav class="sidebar"> 
   <div class="sidebar-header">
     <h1 class="sidebar-logo">ElevateTrack</h1>
@@ -18,7 +19,7 @@
   <div class="sidebar-menu">
     <p class="menu-label">Main Menu</p>
     <ul>
-      <li><a href="#">Dashboard</a></li>
+      <li><a href="#" class="active">Dashboard</a></li>
       <li><a href="#">Projects</a></li>
       <li><a href="#">Goals</a></li>
       <li><a href="#">Activity Tracker</a></li>
@@ -26,13 +27,10 @@
   </div>
 </nav>
 
+<!-- MILESTONES -->
 <div class="main-container">
 <section class="container">
-  <header class="heading">
-    <h1>Hello, Keirt!</h1>
-    <p>October 8, 2025</p>
-  </header>
-
+ 
   <div class="box-container">
     <div class="box">
       <span class="material-icons icon">folder</span>
@@ -61,7 +59,7 @@
   </div>
 </section>
     
-
+<!-- REPO GITHUB -->
     <section class="grid-container">
   <div class="grid-header">
     <h2>Code Contribution</h2>
@@ -179,15 +177,65 @@
   </div>
  </div>
 </section>
-</div>
 
+<!-- ACTIVITY LOG -->
+ <section class="activity-container">
+  <div class="activity-box-header">
+    <h2>Activity Log</h2>
+    <div class="input-group">
+      <input type="text" id="input" placeholder="Add new activity...">
+      <button class="add-btn">Add</button>
+    </div>
+  </div>
+
+  <div class="activity-box">
+    <table class="activity-log">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Created new chart for weekly coding</td>
+          <td>10-20-25</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Removed outdated task log</td>
+          <td>1-1-25</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Created simple react form</td>
+          <td>3-7-10</td>
+          <td>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</div>
+  
+<!-- CHART -->
 <aside class="right-container">
   <div class="chart-card">
-   
     <canvas id="weeklyCodingChart"></canvas>
   </div>
 </aside>
-
+ </section>
  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
  <script src="../js/chart.js"></script>
 </body>

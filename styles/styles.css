@@ -89,7 +89,7 @@ a {
 
 .container {
  flex: 1;
-  height: auto;
+ height: auto;
 }
 
 .box-container {
@@ -132,18 +132,20 @@ a {
    color: #333;
 }
  /*CONTRIBUTION*/
+ 
 .grid-container {
   padding: 20px 25px;
   border-radius: 25px;
   background: #fff;
   max-width: 1000px;
-  margin-left:  25px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-right: 22px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
 .grid-header,
 .grid-header p {
-  text-align: center;
   margin-bottom: 1.5rem;
   background-color: transparent;
 }
@@ -188,12 +190,14 @@ a {
   transition: background-color 0.2s ease;
 }
 
+
+ /* CHART */
+
 .right-container {
   width: 100%;
-  height: 480px; /* taller container */
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* align to top for dashboard feel */
+  align-items: flex-start; 
   padding: 20px;
 }
 
@@ -204,7 +208,6 @@ a {
   padding: 24px 30px;
   width: 100%;
   max-width: 400px;
-  margin: 0 auto;
 }
 
 #weeklyCodingChart {
@@ -218,3 +221,100 @@ a {
   color: #2b2b2b;
   margin-bottom: 12px;
 }
+
+   /* Container */
+
+.activity-container {
+  padding: 20px 25px;
+  border-radius: 25px;
+  background: #fff;
+  max-width: 1000px;
+  margin: 15px 22px 0 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  height: auto; 
+}
+
+.activity-box-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  gap: 8px; 
+}
+
+.activity-box-header input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  width: 250px; 
+  font-size: 15px;
+}
+
+.add-btn {
+  padding: 10px 18px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.activity-box {
+  margin-top: 15px;
+}
+
+.activity-log {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.activity-log th {
+  background-color: #f9fafb;
+  color: #374151;
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.activity-log td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+}
+
+.activity-log tbody tr:hover {
+  background-color: #f3f4f6;
+  transition: background 0.2s ease;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 6px;
+  transition: opacity 0.2s, transform 0.1s ease;
+}
+
+.edit-btn {
+  background: #4f46e5;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
+
+
