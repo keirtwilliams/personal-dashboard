@@ -19,25 +19,17 @@ body {
 }
 
  /*NAV-BAR*/
-.sidebar{
-    min-height: 240px;
-    max-width: 260px;      
-    background-color: #ffffff; 
+.sidebar {
+    width: 300px;               
+    min-width: 200px;          
+    height: 91.5vh;             
+    background-color: #ffffff;
     display: flex;
-    flex-direction: column;   
-    height: 95vh;       
-    padding: 1.5rem 1rem;
-    border-right: 1px solid #f0f0f0;
+    flex-direction: column;
+    padding: 2.5rem 2rem;      
+    border-right: 1px solid #e9e9e9;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.03); 
 }
-
-.sidebar-logo {
-  text-align: center;
-  font-size: 2rem;
-   color: #4943e8;
-   margin-bottom: 2rem;
-   font-weight: 700;
-}
-
 
 li {
     list-style: none;
@@ -86,7 +78,7 @@ a {
     background-color: transparent;
 }
 
-
+ /*Boxes*/
 .container {
  flex: 1;
  height: auto;
@@ -99,7 +91,6 @@ a {
 }
 
 .box {
-
   padding: 20px 30px;
   width: 250px;
   height: 100px;
