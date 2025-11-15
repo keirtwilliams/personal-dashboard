@@ -1,0 +1,19 @@
+:root {
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .sidebar p {
+  font-family: var(--font-heading);
+}
+
+body, p, a, span {
+  font-family: var(--font-body);
+  background-color: #F5F7FB;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
