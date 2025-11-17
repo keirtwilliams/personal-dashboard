@@ -9,7 +9,7 @@ h1, h2, h3, .sidebar p {
 
 body, p, a, span {
   font-family: var(--font-body);
-  background-color: #F5F7FB;
+  
 }
 
 body {
@@ -104,7 +104,6 @@ a {
 }
 
 .icon {
-  font-size: 35px;
   color: #4943e8;
    background-color: transparent; 
 }
