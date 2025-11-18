@@ -14,7 +14,8 @@ body, p, a, span {
 body {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: flex; 
+  background-color: #efefef;
 }
 
 .main-container {
@@ -86,7 +87,7 @@ h3 {
 
 .about-box p {
   margin-top: 10px;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #444;
   background-color: transparent;
 }
@@ -105,8 +106,8 @@ h3 {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
-  
 }
+
 
 .tech-item {
   background: #fff;
@@ -118,6 +119,14 @@ h3 {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.tech-item i {
+  font-size: 32px;
+}
+
+.tech-item:hover{
+  background-color: #efefef;
 }
 
  /*EDUCATION*/
@@ -132,8 +141,18 @@ h3 {
 
 .education-container h1, h2, p {
   background-color: transparent;
+  
 } 
 
 .education-container h2 {
   margin-bottom: 10px;
+}
+
+.right-box {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 20px;
 }
