@@ -3,15 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <link rel="stylesheet" href="/styles/styles.css">
+    <title>Learning Milestones</title>
+
+    <link rel="stylesheet" href="/styles/milestones.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-    <div id="navbar">
 
-    </div>
+<body>
+ 
+    <div id="navbar"></div>
+
+    <main>
+        <section class="main-container">
+
+          
+            <header class="page-header">
+                <h1>Learning Milestones</h1>
+                <p>Track your progress across your journey.</p>
+            </header>
+
+            <form class="milestone-form">
+                <h2>Add New Milestone</h2>
+
+                <input 
+                    type="text" 
+                    id="milestone-title" 
+                    placeholder="Milestone Title"
+                >
+
+                <input 
+                    type="text" 
+                    id="milestone-description" 
+                    placeholder="Description (optional)"
+                >
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="category-select">Category:</label>
+                        <select id="category-select">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                            <option>React</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="status-select">Status:</label>
+                        <select id="status-select">
+                            <option>Not Started</option>
+                            <option>In Progress</option>
+                            <option>Completed</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="add-milestone">
+                    + Add Milestone
+                </button>
+            </form>
+
+     
+            <section class="milestone-card">
+                <header class="card-header">
+                    <h2>Master JavaScript Functions</h2>
+                    <span class="status-badge in-progress">In Progress</span>
+                </header>
+
+                <p class="category">Category: JavaScript</p>
+                <p class="date">Added: Jan 12, 2025</p>
+
+                <p class="description">
+                    Learn functions, scope, and closures to improve fundamentals.
+                </p>
+
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="mark-complete">Mark Completed</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </section>
+
+        </section>
+    </main>
+
     <script src="/js/navConnection.js"></script>
 </body>
 </html>

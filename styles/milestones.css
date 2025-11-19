@@ -9,7 +9,6 @@ h1, h2, h3, .sidebar p {
 
 body, p, a, span {
   font-family: var(--font-body);
-  background-color: #F5F7FB;
 }
 
 body {
@@ -17,3 +16,171 @@ body {
   margin: 0;
   padding: 0;
 }
+
+main {
+  padding: 30px 20px;
+}
+
+
+.main-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.page-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+.page-header p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.milestone-form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+}
+
+.milestone-form h2 {
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+}
+
+.milestone-form input,
+.milestone-form select {
+  width: 95%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  background: #fafafa;
+}
+
+
+
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+
+.add-milestone {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 0;
+  background: #4943e8;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.add-milestone:hover {
+  background: #395ee0;
+}
+
+.milestone-card {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h2 {
+  font-size: 1.2rem;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.status-badge.in-progress { background: #f1c40f; }
+.status-badge.completed { background: #2ecc71; }
+.status-badge.not-started { background: #e74c3c; }
+
+
+.category, .date {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.description {
+  margin: 15px 0;
+  color: #333;
+  line-height: 1.5rem;
+}
+
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.actions button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.25s;
+}
+
+.actions .edit {
+  background: #4943e8;
+  color: white;
+}
+
+.actions .edit:hover {
+  background: #395ee0;
+}
+
+.actions .mark-complete {
+  background: #27ae60;
+  color: white;
+}
+
+.actions .mark-complete:hover {
+  background: #1f8c4c;
+}
+
+.actions .delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.actions .delete:hover {
+  background: #d13c2e;
+}
+
