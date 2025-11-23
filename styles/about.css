@@ -131,8 +131,9 @@ h3 {
 
  /*EDUCATION*/
 .education-container {
-  margin-top: 20px;
-   background: #fff;
+  height: 390px;
+  width: 500px;
+  background: #fff;
   padding: 20px 22px;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
@@ -141,7 +142,7 @@ h3 {
 
 .education-container h1, h2, p {
   background-color: transparent;
-  
+
 } 
 
 .education-container h2 {
