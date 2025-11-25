@@ -5,21 +5,24 @@
         "image": "/images/",
         "description": "A responsive dashboard showcasing portfolio analytics, built with interactive charts and real-time data updates.",
         "techstack": ["HTML", "CSS", "JAVASCRIPT"],
-        "repo": "https://github.com/keirtwilliams/personal-dashboard.git"
+        "repo": "https://github.com/keirtwilliams/personal-dashboard.git",
+        "active": true
 }, 
 {
        "title": "MyWay",
        "image": "/images/",
        "description": "A full-featured online store with user authentication, product catalog, and secure checkout functionality.",
        "techstack": ["REACT", "TAILWIND", "SUPABASE"],
-       "repo": "https://github.com/keirtwilliams/My_Way.git"
+       "repo": "https://github.com/keirtwilliams/My_Way.git",
+       "active": true
 }, {
     
        "title": "Iskor",
        "image": "/images/",
        "description": "A dynamic blog site with content management, commenting system, and SEO-optimized articles.",
        "techstack": ["REACT","TAILWIND"],
-       "repo": "https://github.com/keirtwilliams/iskorprojectmain.git"
+       "repo": "https://github.com/keirtwilliams/iskorprojectmain.git",
+       "active": false
 }
 ]
   }
